@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import CloudComponent from './components/CloudComponent/CloudComponent'
 
-const coloursArray = ['red', 'green', 'blue'];
+const coloursArray = ['#f66e6e', '#f6b36e', '#f5f66e', '#6ef3f6', '#9c6ef6'];
 let colourIndex = 0;
 let currentColour = coloursArray[0];
 
