@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 import './App.css';
 import CloudComponent from './components/CloudComponent/CloudComponent'
 
@@ -9,6 +10,8 @@ let currentColour = coloursArray[0];
 class App extends Component {
   constructor() {
     super();
+    ReactGA.initialize('UA-28252626-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
     this.timer = null;
     this.state = {currentColour};
   }
