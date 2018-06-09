@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
+import CloudComponent from './components/CloudComponent/CloudComponent'
 
 class App extends Component {
   render() {
     return (
-      <div>Lololol</div>
+      <CloudComponent lol={'red'} />
     );
   }
 }
