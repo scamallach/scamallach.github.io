@@ -4,7 +4,7 @@ import CloudComponent from './components/CloudComponent/CloudComponent'
 
 const coloursArray = ['red', 'green', 'blue'];
 let colourIndex = 0;
-let currentColour = coloursArray[1];
+let currentColour = coloursArray[0];
 
 class App extends Component {
   constructor() {
@@ -24,7 +24,13 @@ class App extends Component {
   }
   render() {
     return (
-      <CloudComponent fillColour={this.state.currentColour} />
+      <div className="vertical">
+        <div className="horizontal">
+          <div className="cloud-component">
+            <CloudComponent fillColour={this.state.currentColour} />
+          </div>
+        </div>
+      </div>
     );
   }
 }
