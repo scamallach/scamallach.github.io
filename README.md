@@ -1,8 +1,8 @@
-## Fáilte go dtí baile na scamaill!
+## ☁️ Fáilte go dtí baile na scamaill!
 
 Today's weather report: cloudy with a chance of rainbows.
 
-#### Contributing
+#### ☁️ Contributing
 
 Pre-requisites:
 - Read up on how this site was generated in the [React Readme](REACT_README.md)
